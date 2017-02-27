@@ -1,12 +1,12 @@
-# Extending Cookbooks
+# Elegant Tests
 
-This is the repository dedicated for developing **Eloquent Tests**.
+This is the repository dedicated for developing **Elegant Tests**.
 
 ## Abstract / Description
 
 The tests you write across all your cookbooks require as much or more effort than maintaining the cookbooks that you have written. Quite a bit of boilerplate code is required to verify all the recipes, resources, and helpers. This also means quite a bit of duplication between cookbooks.
 
-In this workshop you will use techniques to bring eloquence to your cookbook’s tests by eliminating redundancy, rebuilding common patterns into helpers, and extracting those helpers into a portable library of code.
+In this workshop you will use techniques to bring elegant to your cookbook’s tests by eliminating redundancy, rebuilding common patterns into helpers, and extracting those helpers into a portable library of code.
 
 * Refactoring tests for elegance
 
@@ -37,6 +37,7 @@ It’s best that learners have some familiarity and comfort with the following:
 * shared_examples
 * def_method
 * shared_context
+* Ruby's require
 * alias_example_group_to
 * Creating a Ruby gem
 * Conclusion
@@ -74,6 +75,6 @@ These modules focus on getting learners engaged with the content as quickly as p
 
 For us at Chef this workstation is currently being managed as a Amazon Machine Instance (AMI). This AMI is managed by Chef through the Training AWS Account.
 
-* Eloquent Tests - CentOS 6.7 - 1.0.0 (ami-????????)
+* Elegant Tests - CentOS 6.7 - 1.0.0 (ami-????????)
 
-The AMI was generated with [Packer](https://github.com/chef-training/chefdk-fundamentals-image) and adheres to the following [policy](https://github.com/chef-training/chefdk-image/blob/master/cookbooks/workstations/recipes/eloquent_tests.rb). It is based on a Marketplace AMI so it cannot be made public. If you would like access to this AMI to deliver training please contact [training@chef.io](mailto:training@chef.io) the request that includes your Amazon Account Id.
+The AMI was generated with [Packer](https://github.com/chef-training/chefdk-fundamentals-image) and adheres to the following [policy](https://github.com/chef-training/chefdk-image/blob/master/cookbooks/workstations/recipes/elegant_tests.rb). It is based on a Marketplace AMI so it cannot be made public. If you would like access to this AMI to deliver training please contact [training@chef.io](mailto:training@chef.io) the request that includes your Amazon Account Id.
