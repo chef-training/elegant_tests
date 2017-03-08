@@ -16,7 +16,7 @@ $ yum update -y
 
 * INSTALL various editors and tools that the participant will install: vim; emacs; nano; tree; and git.
 
-* Clone the [Eloquent Tests Repository](https://github.com/chef-training/eloquent_tests-repo)
+* Clone the [Elegant Tests Repository](https://github.com/chef-training/elegant_tests-repo) into a directory called 'ark'.
 
 * Install [Docker on CentOS](https://docs.docker.com/engine/installation/centos/)
 
